@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=PT+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0em;
+    padding: 0em;
+    box-sizing: border-box;
+}
+
+.bodyStyle{
+    width: auto;
+    height: auto;
+    padding: 15px;
+}
+
+.headerStyle{
+    background-color: #ffffff;
+    margin-top: 120px;
+    width: 540px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+
+.hederLabel1{
+    text-align: center;
+    width: 350px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    font-family: 'Montserrat', sans-serif;
+    color: #898f99;
+}
+
+.hederH1{
+    text-align: center;
+    width: 350px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    font-family: 'Montserrat', sans-serif;
+    color: #0ec8cb;
+    letter-spacing: 1.9px;    
+}
+
+.hederLabel2{
+    text-align: center;
+    width: 455px;
+    height: 75px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 15px;
+    font-family: 'PT Sans', sans-serif;
+    color: #999999;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.grandPanel{
+    width: 1200px;
+    height: auto;
+    margin-top: 1px;
+    padding: 1px 100px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    display: flex;
+}
+
+.panelka{
+    background-color: white;
+    width: 240px;
+    height: 450px;  
+    margin-left: auto;
+    margin-right: auto; 
+    display: inline-block;
+    padding-top: 60px;
+    position: relative;
+    opacity: 100%;        
+    text-align: center;
+    position: relative;
+}
+
+svg {
+    margin: 5px auto;
+    
+}
+
+.iconWebH2{        
+    margin: 0px 20px 0px 20px;
+    bottom: 0;
+    font-family: Montserrat;
+    text-align: center;
+    width: 200px;
+    height: 70px;
+    color: #1b1b1b;
+    
+}
+
+.iconWebLine{    
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;        
+    font-family: Montserrat;
+    text-align: center;
+    width: 185px;
+    height: 150px;
+    color: #1b1b1b;
+}
+
+div:hover{
+    background-color: #0ec8cb; 
+}
+
+div:hover h2{
+       
+    color: white;    
+}
+
+div:hover p{
+    color: white;
+}
+
+div:hover svg g g path{
+    fill: white;
+} 
